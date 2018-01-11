@@ -1,0 +1,31 @@
+---
+title: "A1"
+author: "Linda Liu"
+date: "1/11/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Self introduction
+
+Fourth year student majored in computer science and statistics. I will be graduate soon. Hope I enjoy my last term at ubc.
+
+# Favouriate equation
+My favouraite equation is $Ax=b$ 
+Linear algebra is fun, isn't it?
+
+
+#Favouriate dataset
+My favouriate datset is mtcars because I like cars. The dataset is complete and no missing values.
+
+Let's see the details of the dataset.
+```{r cars}
+x<-data(mtcars)
+head(mtcars, 5)
+boxplot(mtcars)
+```
+
+
